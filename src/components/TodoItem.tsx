@@ -1,8 +1,8 @@
 import { DeleteForeverOutlined, EditNoteOutlined } from "@mui/icons-material";
-import { Button, Paper, Typography, Stack, Checkbox, TextField } from "@mui/material";
-import { Dispatch, SetStateAction, useEffect, useState } from "react";
+import { Button, Checkbox, Paper, Stack, TextField, Typography } from "@mui/material";
 import Card from "@mui/material/Card";
 import CardContent from "@mui/material/CardContent";
+import { useEffect, useState } from "react";
 import { saveLocal } from "../utils/features";
 
 type PropTypes = {

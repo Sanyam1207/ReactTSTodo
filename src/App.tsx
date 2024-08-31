@@ -1,6 +1,6 @@
 import { AppBar, Button, Container, Stack, TextField, Toolbar, Typography } from "@mui/material"
-import TodoItem from "./components/TodoItem"
 import { useEffect, useState } from "react"
+import TodoItem from "./components/TodoItem"
 import { getLocal, saveLocal } from "./utils/features"
 
 function App() {
