@@ -70,7 +70,9 @@ const TodoItem = ({ todo, completeHandler, deleteHandler, todos }: PropTypes) =>
         )}
 
         <Stack direction={"row"} alignItems={"center"}>
-          <Typography marginRight={"auto"}>{todo.title}</Typography>
+          <Typography marginRight={"auto"} sx={{
+            textDecoration: todo.isCompleted ? 'line-through' : "none"
+          }}>{todo.title}</Typography>
           <Checkbox
             onClick={() => {
               completeHandler(todo.id);
