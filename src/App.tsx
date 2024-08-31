@@ -91,7 +91,6 @@ function App() {
               todo={todo}
               completeHandler={completeHandler}
               deleteHandler={deleteHandler}
-              setTodo={setTodos}
               todos={todos}
             />
 

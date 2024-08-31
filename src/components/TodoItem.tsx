@@ -9,7 +9,6 @@ type PropTypes = {
   todo: TodoItemType;
   completeHandler: (id: TodoItemType["id"]) => void;
   deleteHandler: (id: TodoItemType["id"]) => void;
-  setTodo: Dispatch<SetStateAction<TodoItemType[]>>
   todos: TodoItemType[]
 };
 
