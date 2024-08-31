@@ -15,7 +15,7 @@ type PropTypes = {
 
 
 
-const TodoItem = ({ todo, completeHandler, deleteHandler, setTodo, todos }: PropTypes) => {
+const TodoItem = ({ todo, completeHandler, deleteHandler, todos }: PropTypes) => {
 
   const [editTitle, setEditTitle] = useState<string>(todo.title)
   const [editActive, setEditActive] = useState<boolean>(false);
